@@ -5,7 +5,7 @@ This project is to help create easy aliases to run via an SSH/terminal. If you s
 
 
 
-**Paramlist** *Date* `01/05/2020`
+**Paramlist** #####Date##### `01/05/2020`
 
 Recon_profile for create your own param wordlist @1ndianl33t
 
@@ -14,6 +14,7 @@ Tool waybackurls,unfur @TomNomNom
 ```bash
  ▶  nano ~/.bash_profile
 ```
+Copy paste this code 
 
 ```bash
 paramlist() { waybackurls $1 | grep "?" | unfurl keys | sort -u | tee -a paramlist.txt
@@ -25,9 +26,6 @@ paramlist() { waybackurls $1 | grep "?" | unfurl keys | sort -u | tee -a paramli
 
 ▶ Source ~/.bash_profile
 
-```
-```bash
-
 
 ▶ paramlist lol.com
 
@@ -35,7 +33,7 @@ paramlist() { waybackurls $1 | grep "?" | unfurl keys | sort -u | tee -a paramli
 
 
 
-**Subdomain Takeover**  *Date* `29/04/2020`
+**Subdomain Takeover**  ######Date##### `29/04/2020`
 
 
 
