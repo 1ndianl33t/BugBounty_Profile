@@ -55,6 +55,8 @@ subfinder -d $1 >> hosts | assetfinder -subs-only $1 >> hosts | amass enum -nore
 ▶ Subtakeover lol.com
 ```
 
+# Contact
+[![Twitter](https://img.shields.io/badge/twitter-@1ndianl33t-blue.svg)](https://twitter.com/1ndianl33t)
 
 
 
