@@ -5,7 +5,7 @@ This project is to help create easy aliases to run via an SSH/terminal. If you s
 
 
 
-**Paramlist** #####Date##### `01/05/2020`
+**Paramlist** ***Date*** `01/05/2020`
 
 Recon_profile for create your own param wordlist @1ndianl33t
 
@@ -33,10 +33,14 @@ paramlist() { waybackurls $1 | grep "?" | unfurl keys | sort -u | tee -a paramli
 
 
 
-**Subdomain Takeover**  ######Date##### `29/04/2020`
+**Subdomain Takeover**  ***Date*** `29/04/2020`
 
 
 
+```bash
+ ▶  nano ~/.bash_profile
+```
+Copy paste this code 
 
 
 ```bash
@@ -45,6 +49,11 @@ subfinder -d $1 >> hosts | assetfinder -subs-only $1 >> hosts | amass enum -nore
 }
 ```
 
+▶ Source ~/.bash_profile
+
+
+▶ Subtakeover lol.com
+```
 
 
 
