@@ -20,6 +20,7 @@ subfinder -d $1 | httprobe | waybackurls | egrep -iv ".(jpg|gif|css|png|woff|pdf
 ```bash
 ▶ source ~/.bash_profile
 ```
+```
 ▶ blc lol.com
 
 ```
